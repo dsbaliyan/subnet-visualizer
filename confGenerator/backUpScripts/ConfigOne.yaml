@@ -1,0 +1,118 @@
+display_attributes:
+- name
+- vpc
+- region
+root: 10.0.0.0/8
+targets:
+  10.0.0.0/19:
+    name: opensh-zx8s6-master-subnet
+    region: us-central1
+    vpc: opensh-zx8s6-network
+  10.0.32.0/19:
+    name: opensh-zx8s6-worker-subnet
+    region: us-central1
+    vpc: opensh-zx8s6-network
+  10.1.0.0/24:
+    name: don-vpn-compute
+    region: us-central1
+    vpc: don-vpn
+  10.128.0.0/20:
+    name: default
+    region: us-central1
+    vpc: default
+  10.132.0.0/20:
+    name: default
+    region: europe-west1
+    vpc: default
+  10.138.0.0/20:
+    name: default
+    region: us-west1
+    vpc: default
+  10.140.0.0/20:
+    name: default
+    region: asia-east1
+    vpc: default
+  10.142.0.0/20:
+    name: default
+    region: us-east1
+    vpc: default
+  10.146.0.0/20:
+    name: default
+    region: asia-northeast1
+    vpc: default
+  10.148.0.0/20:
+    name: default
+    region: asia-southeast1
+    vpc: default
+  10.150.0.0/20:
+    name: default
+    region: us-east4
+    vpc: default
+  10.152.0.0/20:
+    name: default
+    region: australia-southeast1
+    vpc: default
+  10.154.0.0/20:
+    name: default
+    region: europe-west2
+    vpc: default
+  10.156.0.0/20:
+    name: default
+    region: europe-west3
+    vpc: default
+  10.158.0.0/20:
+    name: default
+    region: southamerica-east1
+    vpc: default
+  10.160.0.0/20:
+    name: default
+    region: asia-south1
+    vpc: default
+  10.162.0.0/20:
+    name: default
+    region: northamerica-northeast1
+    vpc: default
+  10.164.0.0/20:
+    name: default
+    region: europe-west4
+    vpc: default
+  10.166.0.0/20:
+    name: default
+    region: europe-north1
+    vpc: default
+  10.168.0.0/20:
+    name: default
+    region: us-west2
+    vpc: default
+  10.170.0.0/20:
+    name: default
+    region: asia-east2
+    vpc: default
+  10.172.0.0/20:
+    name: default
+    region: europe-west6
+    vpc: default
+  10.174.0.0/20:
+    name: default
+    region: asia-northeast2
+    vpc: default
+  10.178.0.0/20:
+    name: default
+    region: asia-northeast3
+    vpc: default
+  10.180.0.0/20:
+    name: default
+    region: us-west3
+    vpc: default
+  10.182.0.0/20:
+    name: default
+    region: us-west4
+    vpc: default
+  10.184.0.0/20:
+    name: default
+    region: asia-southeast2
+    vpc: default
+  10.186.0.0/20:
+    name: default
+    region: europe-central2
+    vpc: default
