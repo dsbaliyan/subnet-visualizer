@@ -25,6 +25,7 @@ targets:            # Required: One or more target networks to display.
         foo: bar            # Example of an unrendered attribute.
         color: "#FFA500"    # Optional: Color of the target's row in the graph.
 ```
+To auto generate a config file of a GCP project check the confGenerator folder of this repo
 
 ## Using the Tool
 The only option the tool has at the moment is the path to the configuration file. The default behavior of the tool _at the moment_ is to render an HTML document of the graph.
