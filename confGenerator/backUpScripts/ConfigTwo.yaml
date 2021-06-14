@@ -1,6 +1,0 @@
-display_attributes:
-- name
-- vpc
-- region
-root: 172.16.0.0/12
-targets: {}
